@@ -19,7 +19,8 @@ function requestPermission() {
 function sendNotification() {
 	let title = 'Test';
 	let options = {
-	  body: '<b>Test body</b>',
+	  body: 'Test body',
+	  icon: 'https://annddreyy.github.io/news-portal/static/images/bronse_horsmen.png'
 	  // Other options can go here
 	};
 	console.log('Creating new notification');
