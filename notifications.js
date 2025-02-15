@@ -19,7 +19,7 @@ function requestPermission() {
 function sendNotification() {
 	let title = 'Test';
 	let options = {
-	  body: 'Test body',
+	  body: '<b>Test body</b>',
 	  // Other options can go here
 	};
 	console.log('Creating new notification');
