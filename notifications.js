@@ -2,7 +2,7 @@
 
 let button = document.getElementById('button');
 
-window.onload = () => { requestPermission(); };
+button.onclick = () => { requestPermission(); };
 
 function requestPermission() {
 	Notification.requestPermission()
